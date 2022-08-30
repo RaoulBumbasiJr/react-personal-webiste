@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import Portfolio from "./components/Portfolio";
-import Quotes from "./components/Quotes";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./components/home/Home";
+import Portfolio from "./components/portfolio/Portfolio";
+import Quotes from "./components/quotes/Quotes";
 
 
 function App() {
