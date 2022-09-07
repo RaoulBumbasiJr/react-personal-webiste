@@ -1,8 +1,5 @@
 .home {
     background-color: rgb(199, 193, 221);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     height: 100vh;
 }
@@ -10,17 +7,45 @@
 .intro {
     font-size: 50px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    padding-top: 2 0vh;
+    padding-bottom: 20px;
     border: 5px solid black;
 
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .text {
     font-size: 40px; 
     border: 5px solid black;
     text-align: center;
+
+    padding-bottom: 1vh;
+}
+
+.container {
+    position: absolute;
+}
+
+.photos {
+    border: 5px solid black;
+    height: 30vh;
+
+    display: flex;
+    overflow: hidden;
+}
+
+.block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 90px;
+    width: 60px;
+    height: 70px;
+    background-color: blueviolet;
+    text-align: center;
+
+    
 }
