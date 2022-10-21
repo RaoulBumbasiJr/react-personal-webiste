@@ -1,5 +1,11 @@
-import React from 'react'
-import "./home.css"
+import React from 'react';
+import "./home.css";
+import hlogo from '../../images/htmlLogo.png';
+import clogo from '../../images/cssLogo.png';
+import jlogo from '../../images/jsLogo.png';
+import rlogo from '../../images/reactLogo.png';
+import wlogo from '../../images/wordpressLogo.png';
+import alogo from '../../images/adobeLogo.png';
 
 export default function home() {
   return (
@@ -14,12 +20,12 @@ export default function home() {
         </div>
 
           <div className="photos">
-            <div className="block"><img src="" alt="" /></div>
-            <div className="block">2</div>
-            <div className="block">3</div>
-            <div className="block">4</div>
-            <div className="block">5</div>
-            <div className="block">6</div>
+            <img src={hlogo} alt="html" class="logo"/>
+            <img src={clogo} alt="css" class="logo"/>
+            <img src={jlogo} alt="javascript" class="logo"/>
+            <img src={rlogo} alt="react" class="logo"/>
+            <img src={wlogo} alt="wordpress" class="logo"/>
+            <img src={alogo} alt="adobepress" class="logo"/>
         </div>
     </div>
   )
