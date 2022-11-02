@@ -2,4 +2,52 @@
     background-color: rgb(187, 167, 153);
 
     height: 100vh;
+
+    padding-top: 70px;
+
+
+}
+
+.proverbBox {
+    border: solid black 5px;
+
+    height: 500px;
+    width: 400px;
+   
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 30px;
+
+    display: inline-block;
+
+    overflow: hidden;
+
+}
+
+.container {
+    background-color: rgb(123, 139, 139);
+
+    height: 500px;
+    width: 400px;   
+    
+    overflow: hidden;
+    float: left;
+
+    overflow: hidden;
+}
+
+.proverb {
+    overflow: hidden;
+    padding-top: 210px;
+
+    font-size: 25px;
+    position: absolute;
+
+    color: aliceblue;
+
+}
+
+.gay {
+    position: absolute;
 }

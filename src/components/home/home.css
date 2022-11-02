@@ -2,6 +2,8 @@
     background-color: rgb(199, 193, 221);
 
     height: 100vh;
+
+    overflow: hidden;
 }
 
 .intro {

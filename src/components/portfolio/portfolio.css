@@ -1,31 +1,58 @@
 .portfolio {
     background-color: rgb(157, 172, 185);
 
-    height: 100vh;
-    
+    min-height: 100%;
+    height: auto;
+
+
     padding: 25px;
+
 }
 
 .box {
-    height: 315px;
-    width: 500px;
+    height: 360px;
+    width: 750px;
 
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
-    padding-top: 80px;
-    padding-left: 160px;
-    padding-right: 160px;
-
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 65px;
+    margin-right: 65px;
 
     display: inline-block;
 
     overflow: hidden;
 
+    border: 5px solid black;
 
-    background-color: pink;
+}
+
+.label {
+    padding-top: 145px;
+}
+
+.linkContainer {
+    
+    background-color: aqua;
+    height: 360px;
+    width: 100%;
+
+    overflow: hidden;
+}
+
+.projectLink {
+    height: 360px;
+    width: 720px;
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 150px;
+
+    overflow: hidden;
+}
+
+
+.projectLink:visited {
+    color: black;
 }
