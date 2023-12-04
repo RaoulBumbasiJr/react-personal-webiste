@@ -1,0 +1,64 @@
+.home {
+    background-color: rgb(199, 193, 221);
+
+    height: 100vh;
+
+    overflow: hidden;
+}
+
+.intro {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 20px;
+    border: 5px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 40px; 
+    border: 5px solid black;
+    text-align: center;
+
+    padding-bottom: 1vh;
+}
+
+.container {
+    position: absolute;
+}
+
+.photos {
+    border: 5px solid black;
+    height: 30vh;
+
+    display: flex;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.block {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 90px;
+    width: 60px;
+    height: 70px;
+    text-align: center;
+
+}
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-top: 20px;
+}
