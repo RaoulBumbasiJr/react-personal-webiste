@@ -11,7 +11,6 @@
     text-align: center;
     padding-top: 20vh;
     padding-bottom: 20px;
-    border: 5px solid black;
 
     display: flex;
     justify-content: center;
@@ -20,7 +19,6 @@
 
 .text {
     font-size: 40px; 
-    border: 5px solid black;
     text-align: center;
 
     padding-bottom: 1vh;
@@ -31,7 +29,6 @@
 }
 
 .photos {
-    border: 5px solid black;
     height: 30vh;
 
     display: flex;
