@@ -7,6 +7,7 @@ import Quotes from "./components/quotes/Quotes";
 
 
 function App() {
+
   return (
     <div className="app">
       <Navbar />

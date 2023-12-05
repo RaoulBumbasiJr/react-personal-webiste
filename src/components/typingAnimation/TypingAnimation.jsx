@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Typist from 'react-typist';
 import './TypingAnimation.css';
 
 const TypingAnimation = ({ text, speed }) => {

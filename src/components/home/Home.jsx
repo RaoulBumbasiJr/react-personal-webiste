@@ -6,13 +6,14 @@ import jlogo from '../../images/jsLogo.png';
 import rlogo from '../../images/reactLogo.png';
 import wlogo from '../../images/wordpressLogo.png';
 import alogo from '../../images/adobeLogo.png';
+import TypingAnimation from '../typingAnimation/TypingAnimation'
 
 export default function home() {
   return (
     <div className="home" id="home">
         
         <div className="intro">
-          hello, my name is Raoul Bumbasi Jr
+          <TypingAnimation text="Hello, My name is Raoul Bumbasi Jr" speed={50}/>
         </div>
         
         <div className="text">
