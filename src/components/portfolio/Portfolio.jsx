@@ -11,7 +11,7 @@ export default function portfolio() {
               href="https://www.youtube.com/" 
               target="_blank" 
               rel="noreferrer noopener">
-                personal website
+                react menu
             </a>
           </div>
         </div>

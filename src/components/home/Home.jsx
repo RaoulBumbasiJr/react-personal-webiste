@@ -7,17 +7,18 @@ import rlogo from '../../images/reactLogo.png';
 import wlogo from '../../images/wordpressLogo.png';
 import alogo from '../../images/adobeLogo.png';
 import TypingAnimation from '../typingAnimation/TypingAnimation'
+import TypingAnimation1 from '../typingAnimation/TypingAnimation1'
 
 export default function home() {
   return (
     <div className="home" id="home">
         
         <div className="intro">
-          <TypingAnimation text="Hello, My name is Raoul Bumbasi Jr" speed={50}/>
+          <TypingAnimation text="Hello, My name is Raoul Bumbasi Jr :)" speed={50}/>
         </div>
         
         <div className="text">
-          i can code in javascript
+          <TypingAnimation1 text="I can code in HMTL, CSS, JavaScript, and React.js" delay={2300} speed={75}/>
         </div>
 
           <div className="photos">
