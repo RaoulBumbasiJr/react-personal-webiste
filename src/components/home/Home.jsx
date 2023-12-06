@@ -14,11 +14,11 @@ export default function home() {
     <div className="home" id="home">
         
         <div className="intro">
-          <TypingAnimation text="Hello, My name is Raoul Bumbasi Jr :)" speed={50}/>
+          <TypingAnimation text="hello, my name is raoul bumbasi jr :)" speed={50}/>
         </div>
         
         <div className="text">
-          <TypingAnimation1 text="I can code in HMTL, CSS, JavaScript, and React.js" delay={2300} speed={75}/>
+          <TypingAnimation1 text="i can code in html, css, javascript, and react.js" delay={2300} speed={75}/>
         </div>
 
           <div className="photos">
