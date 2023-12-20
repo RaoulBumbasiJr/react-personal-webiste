@@ -1,5 +1,6 @@
-  import React from 'react'
+import React from 'react'
 import "./quotes.css"
+import iroh from '../../images/iroh.png';
 
 export default function quotes() {
   return (
@@ -19,9 +20,10 @@ export default function quotes() {
 
         
         <div className="proverbBox">
-          <div className="container">
-          <div className="proverb" id="nagato">"people live their lives bound by what they accept as correct and true, that's how the define reality" - Itachi</div>
-          </div>
+            <div className="container">
+            <div className="proverb" id="nagato">"people live their lives bound by what they accept as correct and true, that's how the define reality" - Itachi</div>
+            <img src={iroh} alt="html" class="logo"/>
+            </div>
         </div>
         
         <div className="proverbBox">
